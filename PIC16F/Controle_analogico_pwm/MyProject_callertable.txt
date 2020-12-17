@@ -1,0 +1,26 @@
+main
+	Configuracao_portas
+	Configuracao_timer4
+	Configuracao_timer6
+	Configuracao_PWM
+	Refresh_pwm
+		Atualiza_PWM
+			word2double
+				NRM3232
+					RES032
+					SETFUN32
+					FIXSIGN32
+			Mul_32x32_FP
+				RES032
+				SETFOV32
+				SETFUN32
+			Div_32x32_FP
+				SETFDZ32
+				RES032
+				SETFOV32
+				SETFUN32
+			double2word
+				SETIOV3224
+	Refresh_analogica
+		Read_analogica
+interrupt

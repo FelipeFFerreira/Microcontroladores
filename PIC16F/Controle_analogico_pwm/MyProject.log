@@ -1,0 +1,14 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F1828 -GC -DL -O11111114 -fo8 -N"C:\GitHub\Microcontroladores\PIC16F\Controle_analogico_pwm\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16_Enh\" -SP"C:\GitHub\Microcontroladores\PIC16F\Controle_analogico_pwm\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16_Enh\" "controle_analogico_pwm.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 240 [bytes], Available ROM: 4096 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdbool.h
+diagnostics: 141	123	Compiled Successfully	controle_analogico_pwm.c
+hint: 69	1164	Variable 'adc_porc' has been eliminated by optimizer	controle_analogico_pwm.c
+hint: 70	1164	Variable 'value' has been eliminated by optimizer	controle_analogico_pwm.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 5 (2%)  Free RAM (bytes): 235 (98%)	Used RAM (bytes): 5 (2%)  Free RAM (bytes): 235 (98%)
+hint: 0	1144	Used ROM (program words): 649 (16%)  Free ROM (program words): 3447 (84%)	Used ROM (program words): 649 (16%)  Free ROM (program words): 3447 (84%)
+diagnostics: 0	125	Project Linked Successfully	MyProject.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 375 ms	 
+diagnostics: 0	129	Project 'MyProject.mcppi' completed: 609 ms	 
+diagnostics: 0	103	Finished successfully: 17 dez 2020, 17:05:04	MyProject.mcppi
